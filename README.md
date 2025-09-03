@@ -3,6 +3,17 @@
 This is a Python implementation of the **Quine-McCluskey method** for minimizing Boolean expressions. The tool helps reduce the number of terms and variables in a logic expression using systematic grouping and chart-based prime implicant selection.
 
 ---
+▶️ **[Quine McCluskey Implementation Video Demo](https://drive.google.com/file/d/1IoMJO3g2NVDf69poZZKV7o0O5cTA6OeV/view?usp=drive_link)**
+
+This screen recording demonstrates the Quine-McCluskey (QMC) algorithm in action, using the Python program found within this repository. The video walks through an example, showcasing how the code simplifies a Boolean expression step-by-step.
+
+**Example Used in the Video:** `F(A, B, C) = Σ(0, 1, 2, 5,6,7,8,9,10,14)`
+
+**Final Minimized Expression:** `a'bc + a'bd + a'c'd + b'c' + cd'`
+
+---
+
+Note: For certain complex Boolean functions, particularly those with a cyclic prime implicant chart, this solution provides a minimal cover but may not be the absolute most reduced form. A more complex approach, such as Petrick's Method, would be required to solve such cases.
 
 ## 🚀 Features
 
